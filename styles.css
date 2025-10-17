@@ -1,1 +1,56 @@
+body{
+    background-color: rgb(242, 242, 221);
+    color :rgb(130, 102, 92);
+    font-family: Georgia, 'Times New Roman', Times, serif, Helvetica, sans-serif;
 
+#container{
+    width: 800px;
+    margin: 0 auto;
+    background-color: rgb(255, 233, 247);
+    padding: 40px;
+    border-left:rgb(220, 216, 216) ;
+    border-right:rgb(220, 216, 216) ;
+}
+
+}
+h1{
+    text-align: center;
+    background-color:white;
+    border: rgb(239, 194, 224), dotted, 5px;
+    border-radius: 15px;
+    padding: 20px;
+    /* margin-bottom: 60px; */
+    width: 70%;
+}
+
+h2{
+    text-align: center;
+    font-size: large;
+}
+
+h3{
+
+}
+
+p{
+    line-height: 1.8em;
+}
+
+img{
+
+}
+
+a:link{
+    color: rgb(255, 207, 230);
+}
+a:visited{
+    color:rgb(202, 106, 163)
+}
+
+/* CLASS RULE */
+.highlight{
+    font-weight: bold;
+    background-color: rgb(250, 250, 163);
+    padding:3px;
+    color: black
+}
