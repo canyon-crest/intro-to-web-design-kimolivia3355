@@ -1,12 +1,12 @@
 body{
-    background-color: rgb(242, 242, 221);
+    background-color: rgb(255, 233, 247);
     color :rgb(130, 102, 92);
     font-family: Georgia, 'Times New Roman', Times, serif, Helvetica, sans-serif;
 
-#container{
+    #container{
     width: 800px;
     margin: 0 auto;
-    background-color: rgb(255, 233, 247);
+    background-color: rgb(242, 242, 221);
     padding: 40px;
     border-left:rgb(220, 216, 216) ;
     border-right:rgb(220, 216, 216) ;
@@ -14,9 +14,9 @@ body{
 
 }
 h1{
-    text-align: center;
+   text-align: center;
     background-color:white;
-    border: rgb(239, 194, 224), dotted, 5px;
+    border: rgb(245, 216, 234), dotted, 5px;
     border-radius: 15px;
     padding: 20px;
     /* margin-bottom: 60px; */
@@ -34,17 +34,22 @@ h3{
 
 p{
     line-height: 1.8em;
+    background-color: white;
+    padding: 5px;
 }
 
 img{
+    float: inline;
+    width: 80%;
+    border: rgb(186, 153, 128) dotted, 5px;
 
 }
 
 a:link{
-    color: rgb(255, 207, 230);
+    color: rgb(229, 88, 156);
 }
 a:visited{
-    color:rgb(202, 106, 163)
+    color:rgb(187, 84, 146)
 }
 
 /* CLASS RULE */
@@ -53,4 +58,32 @@ a:visited{
     background-color: rgb(250, 250, 163);
     padding:3px;
     color: black
+}
+@media (max-width: 1200px){
+    #container{
+        background-color: azure;
+        width: 800px;
+    }
+}
+
+@media (max-width: 992px){
+    #conatiner{
+        width:100%:
+    }
+    #conatiner, p{
+        margin:0;
+        padding: 0;
+        border: 0;
+    }
+}
+
+@media (max-width: 768px){
+    #sidebar{
+        display: none;
+        img{
+            float: none;
+            border: none;
+            width: 100%;
+        }
+    }
 }
