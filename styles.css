@@ -117,13 +117,13 @@ img.bounce:hover {
 }
 
 .bounce{
-    animation: bounce 2.2s cubic-bezier(.28,.84,.42,1) infinite;
+    animation: bounce 2.2s cubic-bezier(.28,.84,.42,1) 2;
     transform-origin: center bottom;
     will-change: transform;
 }
 
 .container{
-    text-align: center;
+    text-align: none;
 }
 
 a {
