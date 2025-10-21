@@ -116,6 +116,16 @@ img.bounce:hover {
     border-radius: 5px;
 }
 
+.bounce{
+    animation: bounce 2.2s cubic-bezier(.28,.84,.42,1) infinite;
+    transform-origin: center bottom;
+    will-change: transform;
+}
+
+.container{
+    text-align: center;
+}
+
 a {
   display: inline-block;
   color: rgb(231, 123, 175);
